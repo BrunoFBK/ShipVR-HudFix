@@ -1,5 +1,7 @@
 # Important Information For VR
 
+-Must only use DirectX11, if you're using OpenGL, it won't work.
+
 -You must run the game window in a 4:3 aspect ratio.
 
 -You must have MSAA disabled.
