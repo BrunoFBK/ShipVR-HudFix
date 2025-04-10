@@ -1,6 +1,7 @@
 [submodule "libultraship"]
 	path = libultraship
 	url = https://github.com/ShinyWindow/libultraship-vr.git
+	branch = vr-integration
 [submodule "ZAPDTR"]
 	path = ZAPDTR
 	url = https://github.com/harbourmasters/ZAPDTR
