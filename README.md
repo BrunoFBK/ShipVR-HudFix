@@ -1,9 +1,13 @@
 # Important Information For VR
 
 You must run the game window in a 4:3 aspect ratio.
+
 You must have MSAA disabled.
+
 You must leave Internal Resolution at 100%.
+
 You must not toggle "Enable advanced settings."
+
 
 To set the window size up for a larger resolution:
 1. Temporarily enable advanced settings under Settings/Graphics
