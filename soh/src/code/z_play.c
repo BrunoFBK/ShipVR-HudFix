@@ -17,6 +17,7 @@
 #include "soh/framebuffer_effects.h"
 
 #include <libultraship/libultraship.h>
+#include <vr_interface.h>
 
 #include <time.h>
 #include <assert.h>
@@ -690,6 +691,7 @@ void Play_Init(GameState* thisx) {
 }
 
 void Play_Update(PlayState* play) {
+    osSyncPrintf("VR Init: %d\n", VR_IsInitialized());
     Input* input = play->state.input;
     s32 isPaused;
     s32 pad1;
