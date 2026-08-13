@@ -2,25 +2,6 @@
 
 -Must only use DirectX11, if you're using OpenGL, it won't work.
 
--You must run the game window in a 4:3 aspect ratio.
-
--You must have MSAA disabled.
-
--You must leave Internal Resolution at 100%.
-
--You must not toggle "Enable advanced settings" while playing.
-
-
-To set the window size up for a larger resolution:
-1. Temporarily enable advanced settings under Settings/Graphics
-2. Set the aspect ratio to 4:3
-3. Adjust your window size so that the image takes up the whole window and there are no black regions
-4. Disable advanced settings
-
-I plan to create and use an internal framebuffer later on so that you don't need to do these steps, but this is how it is for now.
-
-It's unfortunate, but any text or HUD icons will not line up correctly in VR for now. This mod only sets up the game for rendering the 3D geometry in VR.
-
 ![Ship of Harkinian](docs/shiptitle.darkmode.png#gh-dark-mode-only)
 ![Ship of Harkinian](docs/shiptitle.lightmode.png#gh-light-mode-only)
 
