@@ -363,7 +363,6 @@ target_include_directories(${PROJECT_NAME} PRIVATE assets
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/controller
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/window
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/bridge
-    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/libultra
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/src/config
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/resource
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/resource/type
