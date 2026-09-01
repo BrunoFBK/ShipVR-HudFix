@@ -330,6 +330,40 @@ target_include_directories(${PROJECT_NAME} PRIVATE assets
 	${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/src/utils/binarytools
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/utils/binarytools
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/scripting
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/resource/archive
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/security
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldevice
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldevice/controller
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldevice/controller/mapping
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldevice/controller/mapping/sdl
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldevice/controller/mapping/factories
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldevice/controller/mapping/keyboard
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldevice/controller/mapping/mouse
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/controldeck
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/controller/physicaldevice
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/port
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/port/mobile
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/config
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/debug
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/events
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/audio
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/window
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/window/gui
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/window/gui/resource
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/utils
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/utils/filesystemtools
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/fast
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/fast/resource
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/fast/debug
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/fast/backends
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/log
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/controller
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/window
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/bridge
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship/libultra
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/src/config
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/resource
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/resource/type
