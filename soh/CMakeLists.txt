@@ -329,6 +329,7 @@ target_include_directories(${PROJECT_NAME} PRIVATE assets
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/src/utils
 	${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/src/utils/binarytools
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/utils/binarytools
+    ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/libultraship
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/src/config
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/resource
     ${CMAKE_CURRENT_SOURCE_DIR}/../libultraship/include/ship/resource/type
